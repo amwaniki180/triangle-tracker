@@ -1,8 +1,16 @@
-h1
+
+body
 {
-  color: blue;
+  background-color:  #FFFFFF;
 }
-.centre
-{
-  text-align: center;
+body{
+
+	background-size: cover;
+	color: black;
+ text-align: center;
+text-align: center;
+background-image: url("tri.jpg");
+color: white;
+ font-family: "Great Vibes",
+ background-image:;
 }
