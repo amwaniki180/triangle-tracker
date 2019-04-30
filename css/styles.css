@@ -13,6 +13,7 @@ body{
 }
 h2
 {
+    text-decoration: underline;
     color: red;
     text-align: center;
     font-family: verdana;
