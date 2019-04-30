@@ -2,3 +2,7 @@ body
 {
   background-color:  #FFFFFF;
 }
+body{
+
+	background-size: cover;
+}
