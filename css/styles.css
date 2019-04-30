@@ -11,3 +11,7 @@ body{
    background-image: url("https://i.pinimg.com/originals/e5/79/96/e5799698e1255e1dfefd6c87b4fa8244.jpg");
    font-family: "Great Vibes",
 }
+h2
+{
+    color: red;
+}
