@@ -1,32 +1,31 @@
-body
-{
-  background-color:  #FFFFFF;
+body {
+  background-color: #FFFFFF;
 }
-body{
 
-	background-size: cover;
+body {
+  background-size: cover;
   color: black;
-   text-align: center;
-   text-align: center;
-   background-image: url("https://i.pinimg.com/originals/e5/79/96/e5799698e1255e1dfefd6c87b4fa8244.jpg");
-   font-family: "Great Vibes",
+  text-align: center;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/e5/79/96/e5799698e1255e1dfefd6c87b4fa8244.jpg");
+  font-family: "Great Vibes",
 }
-h2
-{
-    text-decoration: underline;
-    color: red;
-    text-align: center;
-    font-family: verdana;
-    font-size: 22
+
+h2 {
+  text-decoration: underline;
+  color: red;
+  text-align: center;
+  font-family: verdana;
+  font-size: 22
 }
-h3
-{
+
+h3 {
   text-decoration: underline;
   font-family: verdana;
   font-size: 22
 }
-h4
-{
+
+h4 {
   text-decoration: underline;
   font-family: verdana;
   font-size: 22
