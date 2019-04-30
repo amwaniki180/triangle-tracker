@@ -1,99 +1,104 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <style media="screen">
-      h1
-      {
-        color: blue;
-      }
-      .centre
-      {
-        text-align: center;
+
+<head>
+  <style media="screen">
+    h1 {
+      color: blue;
     }
-    h2
-    {
+
+    .centre {
+      text-align: center;
+    }
+
+    h2 {
       color: red;
     }
-    .centre
-    {
+
+    .centre {
       text-align: center;
     }
-    h3
-    {
+
+    h3 {
       color: orange;
     }
-    .centre
-    {
+
+    .centre {
       text-align: center;
     }
-    h4
-    {
+
+    h4 {
       color: green;
     }
-    .centre
-    {
+
+    .centre {
       text-align: center;
+  </style>
+  <meta charset="utf-8">
+  <title>triangle tracker</title>
+  <script src="https://jsfiddle.net/amwaniki180/7d8atkxL/2/" charset="utf-8">
+    </script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
 
-
-    </style>
-    <meta charset="utf-8">
-    <title>triangle tracker</title>
-    <<script src="https://jsfiddle.net/amwaniki180/7d8atkxL/2/" charset="utf-8"></script>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-
-
-
-
-      <div class="">
-        <h1><em>TRIANGLE TRACKER</em></h1>
-      </div>
-
-
-     <div class="container">
-
-      <div class="jumbotron">
-         <form id="triangle-sides">
-           <div class="form-group">
-              <label for="side A">side a</label>
-              <input id= "side A" type="text"><br
-              <label for="side B">side b</label>
-              <input id= "side B" type="text"><br>
-              <label for="side C">side c</label>
-              <input id= "side C" type="text"><br>
+<body>
 
 
 
 
-            </div>
+  <div class="">
+    <h1><em>TRIANGLE TRACKER</em></h1>
+  </div>
 
-           </div>
-           <p id="result"></p>
 
+  <div class="container">
 
-         </form>
-
-      </div>
-       <h2>EQUILATERAL</h2>
-
-          <p>has all sides equal</p>
-
-        <h3>ISCOCELES</h3>
-           <p>Two of the sides haves same length</p>
-
-         <h4>SCALENE</h4>
-            <p>All the sides are different</p>
+    <div class="jumbotron">
+      <form id="triangle-sides">
+        <div class="form-group">
+          <label for="side A">side a</label>
+          <input id="sideOne" type="text"><br <label for="side B">side b</label>
+          <input id="sideTwo" type="text"><br>
+          <label for="side C">side c</label>
+          <input id="sideThree" type="text"><br>
 
 
 
-        <h5>CLICK THE BUTTON ABOVE TO KEY IN THE DIMENSION OF YOUR CHOICE AND SEE THE RESULTS</h5>
-        <button Id="button">Lets do this</button>
+
+        </div>
 
 
 
 
 
+      </form>
 
-  </body>
+    </div>
+    <p id="result"></p>
+    <h2>EQUILATERAL</h2>
+
+    <p>has all sides equal</p>
+
+    <h3>ISCOCELES</h3>
+    <p>Two of the sides haves same length</p>
+
+    <h4>SCALENE</h4>
+    <p>All the sides are different</p>
+
+
+
+    <h5>CLICK THE BUTTON ABOVE TO KEY IN THE DIMENSION OF YOUR CHOICE AND SEE THE RESULTS</h5>
+    <button type="button" id="button">Lets do this</button>
+
+
+
+
+    <script type="text/javascript" src="./js/jquery-3.4.0.js">
+
+    </script>
+    <script type="text/javascript" src="./js/main.js">
+
+    </script>
+</body>
+
 </html>
